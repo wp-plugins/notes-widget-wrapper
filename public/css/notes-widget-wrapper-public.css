@@ -83,7 +83,6 @@
   border: none;
   text-shadow: none;
   box-shadow: none;
-  background: none !important;
 }
 .notes-widget-wrapper *:before,
 .notes-widget-wrapper *:after {
@@ -154,7 +153,6 @@
   border: none;
   text-shadow: none;
   box-shadow: none;
-  background: none !important;
 }
 .notes-widget-wrapper img:before,
 .notes-widget-wrapper img:after {

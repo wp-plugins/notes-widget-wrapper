@@ -39,7 +39,6 @@
 	border:none;
 	text-shadow:none;
 	box-shadow: none;
-	background:none !important;
 	&:before,
 	&:after {
 		display:none !important; 
@@ -92,10 +91,12 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		.notes-widget-wrapper-reset();
-		line-height: 120% !important;
+		background:none !important;
+		line-height: 120% !important; 
 	}
 	p, ul, ol, li {
 		.notes-widget-wrapper-reset();
+		background:none !important;
 		line-height: 150% !important;
 	}
 	img {
