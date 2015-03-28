@@ -96,7 +96,6 @@ class Notes_Widget_Wrapper_Admin {
     $instance['iframe_height'] 						= filter_var($new_instance['iframe_height'], FILTER_SANITIZE_NUMBER_INT);
     $instance['wrapper_css'] 							= esc_html($new_instance['wrapper_css']);
 
-
     return $instance;
 	}
 

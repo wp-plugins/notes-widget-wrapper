@@ -61,8 +61,7 @@ class Notes_Widget_Wrapper_Public {
     $widget_obj = $wp_registered_widgets[$widget_id];
     $widget_opt = get_option($widget_obj['callback'][0]->option_name);
     $widget_num = $widget_obj['params'][0]['number'];
-
-    if (isset($widget_opt[$widget_num]['use_notes_widget_style'])) {
+    if (!empty($widget_opt[$widget_num]['use_notes_widget_style'])) {
     	$thumb_tack_colour 	= isset($widget_opt[$widget_num]['thumb_tack_colour']) ? sanitize_html_class($widget_opt[$widget_num]['thumb_tack_colour']) : 'red';
     	$background_colour 	= isset($widget_opt[$widget_num]['background_colour']) ? sanitize_html_class($widget_opt[$widget_num]['background_colour']) : 'yellow';
     	$text_colour 				= isset($widget_opt[$widget_num]['text_colour']) ? sanitize_html_class($widget_opt[$widget_num]['text_colour']) : 'red';
