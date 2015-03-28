@@ -16,7 +16,7 @@
  * Plugin Name:       Notes Widget Wrapper
  * Plugin URI:        http://webrockstar.net
  * Description:       Wraps widgets in a "sticky note" style wrapper
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Steve Puddick
  * Author URI:        http://webrockstar.net
  * License:           GPL-2.0+
